@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a class="sidebar-element" href="#welcome-body" id="welcome">WELCOME</a>
+            <a class="sidebar-element" href="#who-am-i-body" id="who-am-i">WHO AM I</a>
+            <a class="sidebar-element" href="#what-i-do-body" id="what-i-do">WHAT CAN I DO</a>
+            <a class="sidebar-element" href="#get-in-touch-body" id="get-in-touch">CONNECT WITH ME</a>
+        </div>
+        <div class="main">
+            <div id="welcome-body">
+                <h1 id="name">Hey, I'm Shaurya Dwivedi! 👋</h1>
+                <p>
+                    Welcome to my world—where coding meets creativity. ✨</p>
+                </p>
+                <buttton id="learn-more-btn">
+                    <a id="learn-more" href="#who-am-i-body">LEARN MORE</a>
+                </buttton>
+            </div>
+            <div id="who-am-i-body">
+                <h1>About me! ✨</h1>
+                <div id="container-who-am-i">
+                    <div id="one" class="who-am-i">
+                        <img src="images/img-one-1.jpg" alt="" class="who-am-i-img">
+                        <p>I'm Shaurya Dwivedi, a Chemical Engineering student at IIT Jodhpur
+                            with a passion for technology, creativity, and problem-solving. Whether it's coding web
+                            applications, integrating hardware with software, or experimenting with new ideas, I enjoy
+                            the process of turning concepts into reality.</p>
+                    </div>
+                    <div id="two">
+                        <img src="images/img-two.jpg" alt="" class="who-am-i-img" id="two-img">
+                        <p>Beyond the world of tech, I'm deeply drawn to writing, storytelling, photography, and
+                            philosophy. I see creativity as more than just an outlet—it's a way to express thoughts,
+                            emotions, and perspectives, much like how code brings logic to life.</p>
+                    </div>
+                    <div id="three">
+                        <img src="images/three-img.jpg" alt="" class="who-am-i-img">
+                        <p>
+                            At my core, I'm someone who loves to learn, explore, and build. Whether through code, words,
+                            or visuals, I strive to create things that are meaningful, engaging, and impactful.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="what-i-do-body">
+                <h1>What Can I Do 🤔?</h1>
+                <p id="what-i-do-intro">I love building, creating, and experimenting—whether it's software, hardware, or
+                    a mix of both. My
+                    projects reflect my curiosity and drive to explore different aspects of technology, engineering, and
+                    design. Here’s a glimpse of what I’ve worked on:</p>
+                <ul id="projects">
+                    <li id="web-dev">
+                        <h3>Web Development & UI/UX</h3>
+                        <ul id="web-dev-projects">
+                            <li>
+                                <p>Developed a <a href="https://spotifyclone-shaurya.netlify.app/" target="_blank"
+                                        id="spotify-clone">Spotify Homepage Clone</a> using HTML & CSS, replicating the
+                                    original interface with precision.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    Built a <a href="https://todolist-shaurya.netlify.app/" id="todo-list"
+                                        target="_blank"> Todo
+                                        List</a> app, implementing a clean UI and logical structuring for an efficient
+                                    user experience.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="game-dev">
+                        <h3> Logical Implementations & Other projects</h3>
+                        <ul id="game-dev-projects">
+                            <li>
+                                <p>Created a basic <a href="https://blackjack-game-shaurya.netlify.app/"
+                                        target="_blank">Blackjack Game</a>, in JavaScript, handling card logic and user
+                                    interactions</p>
+                            </li>
+                            <li>
+                                <p>
+                                    Developed a <a href="#">Chess Game</a> in C, where a single player competes against
+                                    the computer. The game evaluates the board after each move and makes decisions based
+                                    on predefined algorithms, ensuring a challenging experience.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="embedded-system">
+                        <h3>Embedded Systems & Hardware Integration</h3>
+                        <ul id="embedded-system-projects">
+                            <li>
+                                <h4>Engineered a <a href="#">Polling Meter</a> for Classroom Quizzes using ESP32 & LCD:
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Students enter responses via buttons, linked to their roll numbers in a
+                                            database.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Real-time result tracking, fastest responders, and accuracy analysis.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Integrated a professor's web dashboard for quiz control and result
+                                            visualization.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="sound-visualizer">
+                                <p>
+                                    Designed an <a href="#">LED Sound Visualizer</a>, where LEDs react dynamically to
+                                    music, turning sound into an interactive light display.
+                                </p>
+                                <p>
+                                    Below is small demonstration on how it looked😊! 
+                                </p>
+                                <div id="vid-wrapper">
+                                    <video src="videos/demonstration.mp4" controls height="250" width="500"></video>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="get-in-touch-body">
+                <div id="intro">
+                    <h1>Let’s Build, Create, and Connect! 🤝</h1>
+                    <p>Every project I work on is a step toward learning, experimenting, and pushing the boundaries of
+                        creativity in tech. Whether it’s <span>developing interactive web applications, exploring
+                            embedded systems, or capturing moments through photography</span>, I believe in
+                        <span>turning ideas into reality</span>.
+                    </p>
+                    <p>If you’d like to <span>collaborate, discuss tech, or just have an interesting
+                            conversation</span>, feel free to reach out!</p>
+                    <p><i class="fa-solid fa-envelope"></i><span> Email: b24ch1038@iitj.ac.in</span></p>
+                </div>
+                <div id="socials">
+                        <a href="https://www.instagram.com/shaurya_dwivedi38/" target="_blank"><i class="fa-brands fa-instagram icons"></i></a>
+                        <a href="https://www.linkedin.com/in/shaurya-dwivedi-4bab1125b/" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
+                        <a href="https://github.com/Shaurya-Dwivedi?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github icons"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
